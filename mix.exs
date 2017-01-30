@@ -39,6 +39,7 @@ defmodule Calidrought.Mixfile do
      {:ja_serializer, "~> 0.11.2"},
      {:floki, "~> 0.13.1"},
      {:edh_phoenix_swagger, "~> 0.2"},
+     {:exvcr, "~> 0.8", only: :test},
      {:credo, "~> 0.5.0", only: [:dev, :test]}
     ]
   end
