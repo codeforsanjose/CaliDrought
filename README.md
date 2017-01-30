@@ -13,11 +13,17 @@ The beginning goals of this project is to:
 
 That's it. Once those two goals are achieved, I'm calling a v1.0 and deploying.
 
+## JSON Clients
+
+Calidrought implements the [JSON:API](http://jsonapi.org/) specification and uses [Swagger](http://swagger.io/) to generate API documentation.
+
+There are plans to use Swagger to generate client SDKs.
+
 ## Authentication
 
 As this is an open API, I'm not going to add any authentication mechanisms to the application.
 
-# Getting started
+## Getting started
 
 * Install dependencies with `mix deps.get`
 * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
