@@ -41,6 +41,7 @@ defmodule Calidrought.Mixfile do
      {:edh_phoenix_swagger, "~> 0.2"},
      {:exvcr, "~> 0.8", only: :test},
      {:scrivener_ecto, "~> 1.0"},
+     {:geo, "~> 1.3"},
      {:credo, "~> 0.5.0", only: [:dev, :test]}
     ]
   end
