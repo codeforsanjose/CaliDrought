@@ -28,4 +28,5 @@ config :calidrought, Calidrought.Repo,
   password: "postgres",
   database: "calidrought_dev",
   hostname: "localhost",
-  pool_size: 10
+  pool_size: 10,
+  types:    Calidrought.PostgresTypes
