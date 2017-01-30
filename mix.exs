@@ -37,7 +37,8 @@ defmodule Calidrought.Mixfile do
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
      {:ja_serializer, "~> 0.11.2"},
-     {:floki, "~> 0.13.1"}
+     {:floki, "~> 0.13.1"},
+     {:credo, "~> 0.5.0"}
     ]
   end
 
