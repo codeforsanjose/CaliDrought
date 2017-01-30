@@ -2,7 +2,7 @@ defmodule Calidrought.Router do
   use Calidrought.Web, :router
 
   pipeline :api do
-    plug :accepts, ["json"]
+    plug :accepts, ["json-api"]
   end
 
   scope "/api", Calidrought do
