@@ -6,9 +6,9 @@ It is a revival of the legacy Calidrought application, which was built on top of
 
 ## Why?
 
-There exists data portals for the California drought, sure. The CDEC website, the current main source of data for Calidrought, is probably the best example. However, the website is incredibly difficult to browse through and use - which is fairly typical for Government produced websites. Also, it does not provide its data programmatically - which makes building out custom visualizations difficult.
+There exists data portals for the California drought, sure. The CDEC website, the current main source of data for Calidrought, is probably the best example. However, like most Government owned websites, it is incredibly difficult to browse through and use. Also, it does not provide its data programmatically - which makes building out custom visualizations difficult.
 
-Furthermore, every non-government visualization I've seen so far has been built off of packaged CSV files that capture point in time data. That being said, I want to lower the barrier to entry for those types of projects as well as providing the tooling needed for those projects to keep up to date.
+Furthermore, every non-government visualization I've seen so far has been built off of packaged CSV files that capture point in time data. Calidrought aims to lower the barrier to entry for those data visualization projects as well as providing the tooling needed for them to be kept up to date.
 
 ## Initial Scope
 
@@ -35,10 +35,8 @@ As this is an open API, I'm not going to add any authentication mechanisms to th
 
 ## Tech Stack
 
-* Elixir
+* Elixir / Phoenix
 * Postgres
-
-That's it.
 
 ## Getting started
 
