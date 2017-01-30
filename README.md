@@ -33,6 +33,13 @@ There are plans to use Swagger to generate client SDKs.
 
 As this is an open API, I'm not going to add any authentication mechanisms to the application.
 
+## Tech Stack
+
+* Elixir
+* Postgres
+
+That's it.
+
 ## Getting started
 
 * Install dependencies with `mix deps.get`
