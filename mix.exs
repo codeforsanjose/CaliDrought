@@ -37,6 +37,7 @@ defmodule Calidrought.Mixfile do
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
      {:ja_serializer, "~> 0.11.2"},
+     {:httpoison, "~> 0.10.0"},
      {:floki, "~> 0.13.1"},
      {:edh_phoenix_swagger, "~> 0.2"},
      {:exvcr, "~> 0.8", only: :test},
