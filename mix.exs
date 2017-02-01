@@ -19,7 +19,7 @@ defmodule Calidrought.Mixfile do
   def application do
     [mod: {Calidrought, []},
      applications: [:phoenix, :phoenix_pubsub, :cowboy, :logger, :gettext,
-                    :phoenix_ecto, :postgrex]]
+                    :phoenix_ecto, :postgrex, :scrivener_ecto]]
   end
 
   # Specifies which paths to compile per environment.
@@ -37,9 +37,12 @@ defmodule Calidrought.Mixfile do
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
      {:ja_serializer, "~> 0.11.2"},
+     {:httpoison, "~> 0.10.0"},
      {:floki, "~> 0.13.1"},
      {:edh_phoenix_swagger, "~> 0.2"},
      {:exvcr, "~> 0.8", only: :test},
+     {:scrivener_ecto, "~> 1.0"},
+     {:geo, "~> 1.3"},
      {:credo, "~> 0.5.0", only: [:dev, :test]}
     ]
   end

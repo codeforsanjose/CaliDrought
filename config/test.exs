@@ -16,4 +16,5 @@ config :calidrought, Calidrought.Repo,
   password: "postgres",
   database: "calidrought_test",
   hostname: "localhost",
-  pool: Ecto.Adapters.SQL.Sandbox
+  pool: Ecto.Adapters.SQL.Sandbox,
+  types:    Calidrought.PostgresTypes
