@@ -2,15 +2,15 @@ defmodule Calidrought.Station do
   use Calidrought.Web, :model
 
   schema "stations" do
-    field :station_id, :string
-    field :url, :string
-    field :elevation, :float
-    field :river_basin, :string
-    field :county, :string
+    field :station_id,      :string
+    field :url,             :string
+    field :elevation,       :float
+    field :river_basin,     :string
+    field :county,          :string
     field :hydrologic_area, :string
-    field :nearby_city, :string
-    field :operator, :string
-    field :point, Geo.Point
+    field :nearby_city,     :string
+    field :operator,        :string
+    field :point,           Geo.Point
 
     timestamps()
   end

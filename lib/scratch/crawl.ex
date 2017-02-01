@@ -8,8 +8,8 @@ defmodule Crawl do
     HTTPoison.get!(base <> uri).body
   end
 
-  def parse_station_links(search_results) do
-    search_results
+  def parse_station_links(hydrologic_area_page) do
+    hydrologic_area_page
     |> Floki.find("a")
     |> Floki.attribute("href")
     |> Enum.filter(&(String.contains?(&1, "station_id")))
